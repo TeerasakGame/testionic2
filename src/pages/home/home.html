@@ -15,4 +15,8 @@
   </p>
 
   <button ion-button secondary menuToggle>Toggle Menu</button>
+
+  <button ion-button  secondary (click)="openPage('aaa')">รายรับรายจ่าย</button>
+  <button ion-button  secondary (click)="takepic()">รูป</button>
+  <button ion-button  secondary [navCtrl]="mapPage">แผนที่</button>
 </ion-content>
